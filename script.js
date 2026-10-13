@@ -301,38 +301,6 @@
       });
     }
 
-    /* ---------- Menu com âncoras (landing page) ---------- */
-    const linksAncora = document.querySelectorAll('.nav__links a[href^="#"]');
-
-    // No celular, fecha o menu depois de escolher uma seção
-    linksAncora.forEach(function (link) {
-      link.addEventListener("click", function () {
-        if (menuLinks) menuLinks.classList.remove("aberto");
-        if (menuBotao) menuBotao.setAttribute("aria-expanded", "false");
-      });
-    });
-
-    // Destaca no menu a seção que está no meio da tela
-    const linksSecao = Array.prototype.filter.call(linksAncora, function (link) {
-      return !link.classList.contains("nav__cta");
-    });
-
-    if (linksSecao.length) {
-      const espiao = new IntersectionObserver(function (entradas) {
-        entradas.forEach(function (entrada) {
-          if (!entrada.isIntersecting) return;
-          linksSecao.forEach(function (link) {
-            link.classList.toggle("ativo", link.getAttribute("href") === "#" + entrada.target.id);
-          });
-        });
-      }, { rootMargin: "-45% 0px -50% 0px" });
-
-      linksSecao.forEach(function (link) {
-        const secao = document.querySelector(link.getAttribute("href"));
-        if (secao) espiao.observe(secao);
-      });
-    }
-
     /* ---------- Imprimir / salvar em PDF ---------- */
     document.querySelectorAll("[data-imprimir]").forEach(function (botao) {
       botao.addEventListener("click", function () { window.print(); });

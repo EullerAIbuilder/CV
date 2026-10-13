@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Currículo de Euller Augusto</title>
-  <meta name="description" content="Euller Augusto, nutricionista em São Paulo: nutrição clínica, esportiva e tratamento da obesidade com prática baseada em evidências.">
+  <meta name="description" content="Currículo de Euller Augusto Gonçalves Targino e Silva, nutricionista em São Paulo com foco em obesidade, nutrição esportiva e educação nutricional.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
@@ -14,19 +14,17 @@
 <body data-pagina="index.html">
   <div class="progresso"></div>
 
-  <!-- Navegação: âncoras para as seções desta página -->
+  <!-- Navegação -->
   <header class="nav">
     <div class="container nav__conteudo">
-      <a href="#inicio" class="nav__marca">
+      <a href="index.html" class="nav__marca">
         <div class="monograma">EA</div>
         <span>Euller Augusto</span>
       </a>
-      <nav class="nav__links" aria-label="Seções da página">
-        <a href="#sobre">Sobre</a>
-        <a href="#atuacao">Atuação</a>
-        <a href="#trajetoria">Trajetória</a>
-        <a href="#competencias">Competências</a>
-        <a href="#contato" class="nav__cta">Fale comigo</a>
+      <nav class="nav__links" aria-label="Páginas do currículo">
+        <a href="index.html">Início</a>
+        <a href="trajetoria.html">Trajetória</a>
+        <a href="competencias.html">Competências</a>
       </nav>
       <div class="nav__acoes">
         <button class="botao-icone" data-tema aria-label="Alternar tema"></button>
@@ -38,25 +36,34 @@
   </header>
 
   <main>
-    <!-- 1. Hero: proposta de valor + chamadas -->
-    <section class="hero hero--landing" id="inicio">
+    <!-- Apresentação -->
+    <section class="hero">
       <div class="container hero__grade">
         <div>
           <span class="selo"><span class="ponto"></span> Disponível para oportunidades</span>
-          <h1>Nutrição baseada em evidências, com <span>cuidado humano</span>.</h1>
-          <p class="hero__apresentacao">Sou <strong>Euller Augusto</strong>, nutricionista formado pelo Centro Universitário São Camilo e pós-graduando em Nutrição Esportiva e Obesidade pela USP. Quero levar para a sua equipe o que aprendi na pesquisa e em quatro estágios.</p>
-          <p class="hero__cargo">Foco em <span class="digitando" data-frases="obesidade e emagrecimento|nutrição esportiva|nutrição clínica|educação nutricional|saúde musculoesquelética"></span></p>
+          <h1>Euller Augusto <span>Gonçalves Targino e Silva</span></h1>
+          <p class="hero__cargo">Nutricionista · <span class="digitando" data-frases="Obesidade e emagrecimento|Nutrição esportiva|Educação nutricional|Saúde musculoesquelética|Prática baseada em evidências"></span></p>
+          <p class="hero__local">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            São Paulo – SP
+          </p>
           <div class="hero__botoes">
             <a href="#contato" class="botao botao--dourado">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 6l9 7 9-7"/></svg>
               Entrar em contato
             </a>
-            <a href="#atuacao" class="botao botao--contorno">Como posso contribuir</a>
+            <a href="trajetoria.html" class="botao botao--contorno">Ver trajetória</a>
           </div>
-          <p class="hero__local">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
-            São Paulo – SP
-          </p>
+          <div class="redes">
+            <a class="rede" href="https://www.instagram.com/oeulleraugusto/" target="_blank" rel="noopener" aria-label="Instagram de Euller Augusto">
+              <span class="rede__icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></span>
+              @oeulleraugusto
+            </a>
+            <a class="rede" href="https://www.youtube.com/@oeulleraugusto" target="_blank" rel="noopener" aria-label="Canal de Euller Augusto no YouTube">
+              <span class="rede__icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg></span>
+              YouTube
+            </a>
+          </div>
         </div>
 
         <div class="hero__visual">
@@ -75,7 +82,7 @@
       </div>
     </section>
 
-    <!-- 2. Prova: números -->
+    <!-- Números -->
     <div class="container">
       <div class="numeros">
         <div class="numero revelar">
@@ -97,22 +104,8 @@
       </div>
     </div>
 
-    <!-- 3. Prova: onde estudou e atuou -->
-    <div class="container">
-      <div class="instituicoes revelar">
-        <span class="instituicoes__titulo">Onde estudei e atuei</span>
-        <ul class="instituicoes__lista">
-          <li>Centro Universitário São Camilo</li>
-          <li>Universidade de São Paulo</li>
-          <li>Hospital São Camilo</li>
-          <li>Clínica-escola PROMOVE</li>
-          <li>Hotel Morumbi</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- 4. Sobre -->
-    <section class="secao" id="sobre">
+    <!-- Sobre -->
+    <section class="secao">
       <div class="container sobre">
         <div class="foto revelar" data-inclinar>
           <img src="img/euller-sobre.jpg" alt="Euller Augusto sentado, de braços cruzados, em fundo escuro" width="960" height="1200" loading="lazy">
@@ -123,160 +116,23 @@
           <h2 class="titulo-esquerda">Vocação para cuidar de pessoas</h2>
           <p>Graduado em Nutrição, com forte interesse no <strong>tratamento da obesidade</strong>, na <strong>educação nutricional</strong> e na <strong>saúde musculoesquelética</strong>.</p>
           <p>Atuei durante um ano no centro de pesquisas do Centro Universitário São Camilo, oferecendo atendimento voluntário a pessoas idosas em situação de vulnerabilidade. Foi nesses atendimentos que descobri minha real vocação: cuidar de pessoas.</p>
-          <p>Aprimorei a comunicação e o trabalho em equipe em apresentações em congressos multiprofissionais e no atendimento multiprofissional.</p>
-        </div>
-      </div>
-    </section>
+          <p>Tive a oportunidade de ensinar e cuidar de diversos pacientes ao longo da minha jornada, e ainda tenho um longo caminho pela frente. Aprimorei a comunicação e o trabalho em equipe em apresentações em congressos multiprofissionais e no atendimento multiprofissional.</p>
 
-    <!-- 5. Atuação: o que entrega para uma equipe -->
-    <section class="secao secao--alt" id="atuacao">
-      <div class="container">
-        <div class="secao__cabecalho revelar">
-          <span class="secao__rotulo">Atuação</span>
-          <h2 class="secao__titulo">Como posso contribuir com a sua equipe</h2>
-          <p class="secao__descricao">Quatro frentes em que já atuei na prática, durante os estágios e a pesquisa.</p>
-        </div>
-
-        <div class="grade-2">
-          <article class="card atuacao revelar">
-            <div class="icone-redondo">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-            </div>
-            <h3>Nutrição clínica</h3>
-            <ul>
-              <li>Avaliação do estado nutricional</li>
-              <li>Prescrição de suplementos para melhorar o aporte calórico</li>
-              <li>Visitas multiprofissionais e registro de condutas no Tasy</li>
-            </ul>
-            <span class="atuacao__onde">Hospital São Camilo</span>
-          </article>
-
-          <article class="card atuacao revelar" data-atraso="1">
-            <div class="icone-redondo">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6v12M18 6v12M3 9v6M21 9v6M6 12h12"/></svg>
-            </div>
-            <h3>Nutrição esportiva</h3>
-            <ul>
-              <li>Antropometria completa, com dobras cutâneas e circunferências</li>
-              <li>Cálculo do gasto energético do exercício (METs)</li>
-              <li>Prescrição dietética e acompanhamento nutricional</li>
-            </ul>
-            <span class="atuacao__onde">Clínica-escola PROMOVE</span>
-          </article>
-
-          <article class="card atuacao revelar">
-            <div class="icone-redondo">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3M8 11h6M11 8v6"/></svg>
-            </div>
-            <h3>Obesidade e emagrecimento</h3>
-            <ul>
-              <li>Pós-graduação em Nutrição Esportiva e Obesidade (USP)</li>
-              <li>45 horas de cursos sobre emagrecimento baseado em evidências</li>
-              <li>Olhar para metabolismo e comportamento</li>
-            </ul>
-            <span class="atuacao__onde">USP · cursos de aperfeiçoamento</span>
-          </article>
-
-          <article class="card atuacao revelar" data-atraso="1">
-            <div class="icone-redondo">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H2zM22 4h-7a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h8z"/></svg>
-            </div>
-            <h3>Educação nutricional</h3>
-            <ul>
-              <li>Oficinas educativas para pacientes e colaboradores</li>
-              <li>Avaliação do estado nutricional e prescrição dietética</li>
-              <li>Comunicação clara, treinada em congressos</li>
-            </ul>
-            <span class="atuacao__onde">Saúde coletiva · PROMOVE</span>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- 6. Trajetória resumida -->
-    <section class="secao" id="trajetoria">
-      <div class="container">
-        <div class="secao__cabecalho revelar">
-          <span class="secao__rotulo">Trajetória</span>
-          <h2 class="secao__titulo">Formação e experiência</h2>
-        </div>
-
-        <ul class="resumo-trajetoria">
-          <li class="revelar">
-            <span class="resumo-trajetoria__quando">Em andamento</span>
-            <div><strong>Pós-graduação em Nutrição Esportiva e Obesidade</strong><small>Universidade de São Paulo (USP)</small></div>
-          </li>
-          <li class="revelar">
-            <span class="resumo-trajetoria__quando">Dez. 2025</span>
-            <div><strong>Graduação em Nutrição</strong><small>Centro Universitário São Camilo</small></div>
-          </li>
-          <li class="revelar">
-            <span class="resumo-trajetoria__quando">2025</span>
-            <div><strong>Iniciação científica: sarcopenia, sono e vitamina D em idosos</strong><small>Laboratório de Pesquisa do Exercício e Qualidade de Vida · São Camilo</small></div>
-          </li>
-          <li class="revelar">
-            <span class="resumo-trajetoria__quando">2025</span>
-            <div><strong>Estágio em nutrição clínica</strong><small>Hospital São Camilo</small></div>
-          </li>
-          <li class="revelar">
-            <span class="resumo-trajetoria__quando">2025</span>
-            <div><strong>Estágios em nutrição esportiva e saúde coletiva</strong><small>Clínica-escola PROMOVE</small></div>
-          </li>
-          <li class="revelar">
-            <span class="resumo-trajetoria__quando">2025</span>
-            <div><strong>Estágio em unidade de alimentação e nutrição</strong><small>Hotel Morumbi</small></div>
-          </li>
-        </ul>
-
-        <p class="link-detalhe revelar">
-          <a href="trajetoria.html">Ver todas as atividades de cada experiência
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-        </p>
-      </div>
-    </section>
-
-    <!-- 7. Competências -->
-    <section class="secao secao--alt" id="competencias">
-      <div class="container">
-        <div class="secao__cabecalho revelar">
-          <span class="secao__rotulo">Competências</span>
-          <h2 class="secao__titulo">O que levo para o dia a dia</h2>
-        </div>
-
-        <div class="competencias-resumo">
-          <div class="revelar">
-            <h3 class="subtitulo">Habilidades</h3>
-            <ul class="habilidades">
-              <li>Comunicação interpessoal e acolhimento ao paciente</li>
-              <li>Educação nutricional</li>
-              <li>Trabalho em equipe multidisciplinar</li>
-              <li>Organização e análise de dados</li>
-              <li>Prática baseada em evidências</li>
-            </ul>
-          </div>
-
-          <div class="revelar" data-atraso="1">
-            <h3 class="subtitulo">Instrumentos e técnicas</h3>
-            <div class="tecnicas tecnicas--compacto">
-              <div class="tecnica"><span class="tecnica__sigla">MAN</span><div><strong>Mini Avaliação Nutricional</strong><small>Triagem de idosos</small></div></div>
-              <div class="tecnica"><span class="tecnica__sigla">PSQI</span><div><strong>Qualidade do sono</strong><small>Índice de Pittsburgh</small></div></div>
-              <div class="tecnica"><span class="tecnica__sigla">ANT</span><div><strong>Antropometria</strong><small>Dobras e circunferências</small></div></div>
-              <div class="tecnica"><span class="tecnica__sigla">MET</span><div><strong>Gasto energético</strong><small>Equivalentes metabólicos</small></div></div>
-            </div>
+          <span class="secao__rotulo" style="margin-top: 28px;">Áreas de interesse</span>
+          <div class="chips">
+            <span class="chip">Obesidade e emagrecimento</span>
+            <span class="chip">Nutrição esportiva</span>
+            <span class="chip">Educação nutricional</span>
+            <span class="chip">Saúde musculoesquelética</span>
+            <span class="chip">Nutrição clínica</span>
+            <span class="chip">Sarcopenia e envelhecimento</span>
           </div>
         </div>
-
-        <p class="link-detalhe revelar">
-          <a href="competencias.html">Ver onde cada competência foi desenvolvida
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-        </p>
       </div>
     </section>
 
-    <!-- 8. Objetivo -->
-    <section class="secao">
+    <!-- Objetivo -->
+    <section class="secao secao--alt">
       <div class="container">
         <div class="secao__cabecalho revelar">
           <span class="secao__rotulo">O que busco</span>
@@ -286,7 +142,7 @@
       </div>
     </section>
 
-    <!-- 9. Chamada final + contato -->
+    <!-- Contato -->
     <section class="secao" id="contato">
       <div class="container">
         <div class="contato revelar">
@@ -315,6 +171,12 @@
         </div>
       </div>
     </section>
+
+    <div class="proxima">
+      <a href="trajetoria.html">Conheça minha trajetória
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
   </main>
 
   <footer class="rodape">
