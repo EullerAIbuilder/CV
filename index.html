@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Currículo de Euller Augusto</title>
+  <meta name="description" content="Currículo de Euller Augusto Gonçalves Targino e Silva, nutricionista em São Paulo com foco em obesidade, nutrição esportiva e educação nutricional.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body data-pagina="index.html">
+  <div class="progresso"></div>
+
+  <!-- Navegação -->
+  <header class="nav">
+    <div class="container nav__conteudo">
+      <a href="index.html" class="nav__marca">
+        <div class="monograma">EA</div>
+        <span>Euller Augusto</span>
+      </a>
+      <nav class="nav__links" aria-label="Páginas do currículo">
+        <a href="index.html">Início</a>
+        <a href="trajetoria.html">Trajetória</a>
+        <a href="competencias.html">Competências</a>
+      </nav>
+      <div class="nav__acoes">
+        <button class="botao-icone" data-tema aria-label="Alternar tema"></button>
+        <button class="botao-icone menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Apresentação -->
+    <section class="hero">
+      <div class="container hero__grade">
+        <div>
+          <span class="selo"><span class="ponto"></span> Disponível para oportunidades</span>
+          <h1>Euller Augusto <span>Gonçalves Targino e Silva</span></h1>
+          <p class="hero__cargo">Nutricionista · <span class="digitando" data-frases="Obesidade e emagrecimento|Nutrição esportiva|Educação nutricional|Saúde musculoesquelética|Prática baseada em evidências"></span></p>
+          <p class="hero__local">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            São Paulo – SP
+          </p>
+          <div class="hero__botoes">
+            <a href="#contato" class="botao botao--dourado">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 6l9 7 9-7"/></svg>
+              Entrar em contato
+            </a>
+            <a href="trajetoria.html" class="botao botao--contorno">Ver trajetória</a>
+          </div>
+          <div class="redes">
+            <a class="rede" href="https://www.instagram.com/oeulleraugusto/" target="_blank" rel="noopener" aria-label="Instagram de Euller Augusto">
+              <span class="rede__icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></span>
+              @oeulleraugusto
+            </a>
+            <a class="rede" href="https://www.youtube.com/@oeulleraugusto" target="_blank" rel="noopener" aria-label="Canal de Euller Augusto no YouTube">
+              <span class="rede__icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg></span>
+              YouTube
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="foto" data-inclinar>
+            <img src="img/euller-principal.jpg" alt="Retrato de Euller Augusto, nutricionista, de camisa preta" width="960" height="1200">
+            <div class="foto__selo foto__selo--a">
+              <span class="foto__selo-icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg></span>
+              <span><strong>Nutricionista</strong>São Camilo · 2025</span>
+            </div>
+            <div class="foto__selo foto__selo--b">
+              <span class="foto__selo-icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg></span>
+              <span><strong>Pós-graduando</strong>USP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Números -->
+    <div class="container">
+      <div class="numeros">
+        <div class="numero revelar">
+          <div class="numero__valor" data-contar="4">4</div>
+          <div class="numero__rotulo">Estágios em áreas diferentes</div>
+        </div>
+        <div class="numero revelar" data-atraso="1">
+          <div class="numero__valor" data-contar="1" data-sufixo=" ano">1<small> ano</small></div>
+          <div class="numero__rotulo">Em pesquisa científica</div>
+        </div>
+        <div class="numero revelar" data-atraso="2">
+          <div class="numero__valor" data-contar="45" data-sufixo="h">45<small>h</small></div>
+          <div class="numero__rotulo">Em cursos de aperfeiçoamento</div>
+        </div>
+        <div class="numero revelar" data-atraso="3">
+          <div class="numero__valor" data-contar="2">2</div>
+          <div class="numero__rotulo">Formações: graduação e pós</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sobre -->
+    <section class="secao">
+      <div class="container sobre">
+        <div class="foto revelar" data-inclinar>
+          <img src="img/euller-sobre.jpg" alt="Euller Augusto sentado, de braços cruzados, em fundo escuro" width="960" height="1200" loading="lazy">
+        </div>
+
+        <div class="sobre__texto revelar" data-atraso="1">
+          <span class="secao__rotulo">Sobre mim</span>
+          <h2 class="titulo-esquerda">Vocação para cuidar de pessoas</h2>
+          <p>Graduado em Nutrição, com forte interesse no <strong>tratamento da obesidade</strong>, na <strong>educação nutricional</strong> e na <strong>saúde musculoesquelética</strong>.</p>
+          <p>Atuei durante um ano no centro de pesquisas do Centro Universitário São Camilo, oferecendo atendimento voluntário a pessoas idosas em situação de vulnerabilidade. Foi nesses atendimentos que descobri minha real vocação: cuidar de pessoas.</p>
+          <p>Tive a oportunidade de ensinar e cuidar de diversos pacientes ao longo da minha jornada, e ainda tenho um longo caminho pela frente. Aprimorei a comunicação e o trabalho em equipe em apresentações em congressos multiprofissionais e no atendimento multiprofissional.</p>
+
+          <span class="secao__rotulo" style="margin-top: 28px;">Áreas de interesse</span>
+          <div class="chips">
+            <span class="chip">Obesidade e emagrecimento</span>
+            <span class="chip">Nutrição esportiva</span>
+            <span class="chip">Educação nutricional</span>
+            <span class="chip">Saúde musculoesquelética</span>
+            <span class="chip">Nutrição clínica</span>
+            <span class="chip">Sarcopenia e envelhecimento</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Objetivo -->
+    <section class="secao secao--alt">
+      <div class="container">
+        <div class="secao__cabecalho revelar">
+          <span class="secao__rotulo">O que busco</span>
+          <h2 class="secao__titulo">Objetivo profissional</h2>
+        </div>
+        <p class="citacao revelar">Procuro oportunidades para colocar em prática tudo o que aprendi em sala de aula e no contato humano em cada atendimento ao longo deste último ano de estágios e iniciação científica. Quero aprender com cada atendimento e com o trabalho em equipe, e contribuir com o que construí até aqui.</p>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="secao" id="contato">
+      <div class="container">
+        <div class="contato revelar">
+          <div>
+            <h2>Vamos <span>conversar?</span></h2>
+            <p>Estou disponível para oportunidades em nutrição clínica, esportiva e no tratamento da obesidade. Clique em um dos contatos para copiar ou abrir.</p>
+          </div>
+          <div class="contato__lista">
+            <button class="contato__item" data-copiar="euller.nutricionista@gmail.com" data-rotulo="E-mail">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              <span><small>E-mail (clique para copiar)</small>euller.nutricionista@gmail.com</span>
+            </button>
+            <a class="contato__item" href="https://wa.me/5511971972977" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+              <span><small>WhatsApp · (11) 97197-2977</small>Enviar mensagem</span>
+            </a>
+            <a class="contato__item" href="https://www.instagram.com/oeulleraugusto/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+              <span><small>Instagram</small>@oeulleraugusto</span>
+            </a>
+            <a class="contato__item" href="https://www.youtube.com/@oeulleraugusto" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg>
+              <span><small>YouTube</small>@oeulleraugusto</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="proxima">
+      <a href="trajetoria.html">Conheça minha trajetória
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape__conteudo">
+      <span>© 2026 <strong>Euller Augusto Gonçalves Targino e Silva</strong> · Nutricionista</span>
+      <span class="rodape__redes">
+        <a href="https://www.instagram.com/oeulleraugusto/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://www.youtube.com/@oeulleraugusto" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg></a>
+      </span>
+    </div>
+  </footer>
+
+  <button class="topo" aria-label="Voltar ao topo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+  </button>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

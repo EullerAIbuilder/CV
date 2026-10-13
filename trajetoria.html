@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Trajetória | Euller Augusto</title>
+  <meta name="description" content="Formação acadêmica, iniciação científica, estágios e cursos de Euller Augusto, nutricionista.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body data-pagina="trajetoria.html">
+  <div class="progresso"></div>
+
+  <!-- Navegação -->
+  <header class="nav">
+    <div class="container nav__conteudo">
+      <a href="index.html" class="nav__marca">
+        <div class="monograma">EA</div>
+        <span>Euller Augusto</span>
+      </a>
+      <nav class="nav__links" aria-label="Páginas do currículo">
+        <a href="index.html">Início</a>
+        <a href="trajetoria.html">Trajetória</a>
+        <a href="competencias.html">Competências</a>
+      </nav>
+      <div class="nav__acoes">
+        <button class="botao-icone" data-tema aria-label="Alternar tema"></button>
+        <button class="botao-icone menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero--interno">
+      <div class="container hero__grade">
+        <div>
+          <span class="selo">Formação e experiência</span>
+          <h1>Minha <span>trajetória</span></h1>
+          <p class="hero__cargo">Da sala de aula ao atendimento.</p>
+          <p class="hero__descricao">Graduação no Centro Universitário São Camilo, pós-graduação na USP, um ano de iniciação científica e estágios em nutrição clínica, esportiva, alimentação coletiva e saúde coletiva.</p>
+        </div>
+        <div class="hero__visual">
+          <div class="foto" data-inclinar>
+            <img src="img/euller-trajetoria.jpg" alt="Retrato em preto e branco de Euller Augusto com as mãos entrelaçadas" width="960" height="1200">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formação acadêmica -->
+    <section class="secao">
+      <div class="container">
+        <div class="secao__cabecalho revelar">
+          <span class="secao__rotulo">Base acadêmica</span>
+          <h2 class="secao__titulo">Formação</h2>
+        </div>
+
+        <div class="grade-2">
+          <article class="card revelar">
+            <div class="icone-redondo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg>
+            </div>
+            <h3>Graduação em Nutrição</h3>
+            <p>Centro Universitário São Camilo</p>
+            <span class="formacao__status formacao__status--ok">✓ Concluída em dezembro de 2025</span>
+          </article>
+
+          <article class="card revelar" data-atraso="1">
+            <div class="icone-redondo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>
+            </div>
+            <h3>Pós-graduação em Nutrição Esportiva e Obesidade</h3>
+            <p>Universidade de São Paulo (USP)</p>
+            <span class="formacao__status formacao__status--andamento">● Em andamento</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Linha do tempo -->
+    <section class="secao secao--alt">
+      <div class="container">
+        <div class="secao__cabecalho revelar">
+          <span class="secao__rotulo">2025</span>
+          <h2 class="secao__titulo">Experiências</h2>
+          <p class="secao__descricao">Filtre por área e clique em cada experiência para ver as atividades realizadas.</p>
+        </div>
+
+        <div class="filtros revelar">
+          <button class="filtro ativo" data-filtro="todos">Todas</button>
+          <button class="filtro" data-filtro="pesquisa">Pesquisa</button>
+          <button class="filtro" data-filtro="clinica">Clínica</button>
+          <button class="filtro" data-filtro="esportiva">Esportiva</button>
+          <button class="filtro" data-filtro="producao">Alimentação coletiva</button>
+          <button class="filtro" data-filtro="coletiva">Saúde coletiva</button>
+        </div>
+
+        <div class="linha-tempo">
+          <div class="linha-tempo__preenchimento"></div>
+
+          <div class="evento revelar aberto" data-categoria="pesquisa">
+            <span class="evento__marcador"></span>
+            <div class="card" aria-expanded="true">
+              <div class="evento__topo">
+                <div>
+                  <span class="evento__tag">Iniciação científica</span>
+                  <h3>Pesquisa em sarcopenia, sono e vitamina D</h3>
+                  <p class="evento__local">Centro Universitário São Camilo · Laboratório de Pesquisa do Exercício e Qualidade de Vida</p>
+                </div>
+                <span class="evento__seta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></span>
+              </div>
+              <div class="evento__detalhes"><div>
+                <ul>
+                  <li>Atuação em estudo sobre sarcopenia, sono e vitamina D em idosos</li>
+                  <li>Coleta e análise de dados dos parâmetros nutricionais da sarcopenia</li>
+                  <li>Coleta e organização de dados clínicos e nutricionais</li>
+                  <li>Avaliação antropométrica e funcional de pacientes</li>
+                  <li>Aplicação de instrumentos como MAN e PSQI</li>
+                  <li>Apoio na análise e interpretação de dados científicos</li>
+                  <li>Participação na elaboração de relatório científico</li>
+                </ul>
+              </div></div>
+            </div>
+          </div>
+
+          <div class="evento revelar" data-categoria="clinica">
+            <span class="evento__marcador"></span>
+            <div class="card" aria-expanded="false">
+              <div class="evento__topo">
+                <div>
+                  <span class="evento__tag">Estágio</span>
+                  <h3>Nutrição clínica</h3>
+                  <p class="evento__local">Hospital São Camilo</p>
+                </div>
+                <span class="evento__seta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></span>
+              </div>
+              <div class="evento__detalhes"><div>
+                <ul>
+                  <li>Avaliação do estado nutricional</li>
+                  <li>Prescrição de suplementos para melhorar o aporte calórico dos pacientes</li>
+                  <li>Acompanhamento das visitas multiprofissionais</li>
+                  <li>Atualização de dados cadastrais, condutas e atividades nutricionais na plataforma Tasy</li>
+                </ul>
+              </div></div>
+            </div>
+          </div>
+
+          <div class="evento revelar" data-categoria="esportiva">
+            <span class="evento__marcador"></span>
+            <div class="card" aria-expanded="false">
+              <div class="evento__topo">
+                <div>
+                  <span class="evento__tag">Estágio</span>
+                  <h3>Nutrição esportiva</h3>
+                  <p class="evento__local">Clínica-escola PROMOVE</p>
+                </div>
+                <span class="evento__seta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></span>
+              </div>
+              <div class="evento__detalhes"><div>
+                <ul>
+                  <li>Avaliação antropométrica completa e do estado nutricional (circunferências e dobras cutâneas)</li>
+                  <li>Cálculo do gasto calórico decorrente de exercícios físicos (equivalentes metabólicos – MET)</li>
+                  <li>Prescrição dietética completa e acompanhamento nutricional</li>
+                </ul>
+              </div></div>
+            </div>
+          </div>
+
+          <div class="evento revelar" data-categoria="producao">
+            <span class="evento__marcador"></span>
+            <div class="card" aria-expanded="false">
+              <div class="evento__topo">
+                <div>
+                  <span class="evento__tag">Estágio</span>
+                  <h3>Unidade de alimentação e nutrição</h3>
+                  <p class="evento__local">Hotel Morumbi</p>
+                </div>
+                <span class="evento__seta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></span>
+              </div>
+              <div class="evento__detalhes"><div>
+                <ul>
+                  <li>Garantia do padrão de estoque PVPS (primeiro que vence, primeiro que sai)</li>
+                  <li>Acompanhamento do pré-preparo e do preparo dos alimentos</li>
+                  <li>Organização do fluxo de produção</li>
+                  <li>Observação das boas práticas de manipulação</li>
+                  <li>Apoio no controle de qualidade</li>
+                  <li>Auxílio na aplicação das normas da ANVISA</li>
+                </ul>
+              </div></div>
+            </div>
+          </div>
+
+          <div class="evento revelar" data-categoria="coletiva">
+            <span class="evento__marcador"></span>
+            <div class="card" aria-expanded="false">
+              <div class="evento__topo">
+                <div>
+                  <span class="evento__tag">Estágio</span>
+                  <h3>Saúde coletiva</h3>
+                  <p class="evento__local">Clínica-escola PROMOVE</p>
+                </div>
+                <span class="evento__seta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></span>
+              </div>
+              <div class="evento__detalhes"><div>
+                <ul>
+                  <li>Avaliação do estado nutricional</li>
+                  <li>Prescrição dietética</li>
+                  <li>Produção e apresentação de oficinas de educação nutricional para pacientes e colaboradores da Casa PROMOVE</li>
+                </ul>
+              </div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cursos -->
+    <section class="secao">
+      <div class="container">
+        <div class="secao__cabecalho revelar">
+          <span class="secao__rotulo">Aperfeiçoamento contínuo</span>
+          <h2 class="secao__titulo">Cursos</h2>
+          <p class="secao__descricao">45 horas de cursos complementares voltados à obesidade e ao emagrecimento baseados em evidências.</p>
+        </div>
+
+        <div class="grade-2">
+          <article class="card curso revelar">
+            <div class="curso__horas" data-pct="55.6" style="--pct: 55.6%"><span>25h<small>de 45h</small></span></div>
+            <div>
+              <h3>Nutrição, Obesidade e Emagrecimento Baseado em Evidências</h3>
+              <p>Prof. Dr. Marcus Quaresma, M.Sc., Ph.D.</p>
+            </div>
+          </article>
+
+          <article class="card curso revelar" data-atraso="1">
+            <div class="curso__horas" data-pct="44.4" style="--pct: 44.4%"><span>20h<small>de 45h</small></span></div>
+            <div>
+              <h3>Emagrecimento sob a Ótica do Metabolismo e do Comportamento</h3>
+              <p>Prof. Dr. Marcus Quaresma, M.Sc., Ph.D. e Dr. Me. Esp. Murilo Dattilo</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="proxima">
+      <a href="competencias.html">Veja minhas competências
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape__conteudo">
+      <span>© 2026 <strong>Euller Augusto Gonçalves Targino e Silva</strong> · Nutricionista</span>
+      <span class="rodape__redes">
+        <a href="https://www.instagram.com/oeulleraugusto/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://www.youtube.com/@oeulleraugusto" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg></a>
+      </span>
+    </div>
+  </footer>
+
+  <button class="topo" aria-label="Voltar ao topo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+  </button>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
